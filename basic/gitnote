@@ -1,0 +1,53 @@
+Microsoft Windows [Version 10.0.26220.8764]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\gitallprogram\javaprogram\basic>java A.java
+hi
+
+D:\gitallprogram\javaprogram\basic>cd..
+
+D:\gitallprogram\javaprogram>git add .
+
+D:\gitallprogram\javaprogram>git commit -m "day1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'shiva@LAPTOP-N62QTMP9.(none)')
+
+D:\gitallprogram\javaprogram>git config --global user.email "shivamkumar20201515gmail.com"
+
+D:\gitallprogram\javaprogram> git config --global user.name "shivamkumar"
+
+D:\gitallprogram\javaprogram>git commit -m "day1"
+[main (root-commit) 38bda87] day1
+ 1 file changed, 7 insertions(+)
+ create mode 100644 basic/A.java
+
+D:\gitallprogram\javaprogram>git push -u origin
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 329 bytes | 164.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shivamkumar20201515-lang/javaprogram.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\gitallprogram\javaprogram>
+
+
+
+git add .
+git commit -m "day1"
+git push -u origin
