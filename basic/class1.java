@@ -36,6 +36,11 @@ java classname
 
 java Test
 
+other way single class
+_______________________
+
+java filename.java
+
 identifier
 _____
 
@@ -82,7 +87,7 @@ a_b    v
 _ab    v
 a b    iv
 a-b    iv
-if    iv
+if    iv (keyword)
 IF    v(not recommand)
 
 
@@ -181,7 +186,7 @@ class Test
 	{
 	    int a=10;
 	    double b=3.7;
-	    String s="hi;
+	    String s="hi";
 	   System.out.println(a);
 	    System.out.println(b);
 	     System.out.println(s);
@@ -408,6 +413,7 @@ class Test
 	public static void main(String arg[])
 	{
 	    Scanner sc=new Scanner(System.in);
+	    System.out.println("enter two nos ");
 	    int a=sc.nextInt(),b=sc.nextInt();
 	   System.out.println("first no="+a);
 	   System.out.println("second no="+b);

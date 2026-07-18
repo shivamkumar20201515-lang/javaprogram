@@ -51,3 +51,33 @@ D:\gitallprogram\javaprogram>
 git add .
 git commit -m "day1"
 git push -u origin
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>
+D:\gitallprogram\javaprogram>git add .
+
+D:\gitallprogram\javaprogram>git commit -m "day1"
+[main b257a3c] day1
+ 9 files changed, 642 insertions(+)
+ create mode 100644 basic/B.java
+ create mode 100644 basic/D.java
+ create mode 100644 basic/E.java
+ create mode 100644 basic/F.java
+ create mode 100644 basic/G.java
+ create mode 100644 basic/H.java
+ create mode 100644 basic/c.java
+ create mode 100644 basic/class1.java
+ create mode 100644 basic/gitnote
+
+D:\gitallprogram\javaprogram>git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 4.20 KiB | 478.00 KiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/shivamkumar20201515-lang/javaprogram.git
+   38bda87..b257a3c  main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\gitallprogram\javaprogram>
