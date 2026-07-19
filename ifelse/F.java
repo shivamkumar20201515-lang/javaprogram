@@ -1,10 +1,10 @@
 import java.util.*;
-class D{
+class E{
 	public static void main(String arg[]){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("ENTER THE NUMBER");
 		int num=sc.nextInt();
-		if(num==0){
-			System.out.println("zero");
+		if(num%2!=0){
+			System.out.println("number is odd");
 		}
 	}}
