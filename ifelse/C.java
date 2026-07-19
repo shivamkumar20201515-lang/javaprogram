@@ -1,10 +1,11 @@
 import java.util.*;
-class B{
+class C{
 	public static void main(String arg[]){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("ENTER THE NUMBER");
-		int no=sc.nextInt();
-		if(no<0){
-			System.out.println("-ve");
-
-		}}}
+		int num=sc.nextInt();
+		if(num<0){
+			num=-num;
+		}
+		System.out.println(num);
+	}}
