@@ -1,4 +1,5 @@
-if else   statement
+
+}if else   statement
 _______________________
 
 if(condtion)
@@ -233,7 +234,7 @@ class Test
        {
         a=30;
        b=40;
-   	}
+    }
        System.out.println(a+" "+b);
         
     }
@@ -251,9 +252,9 @@ class Test
        System.out.println("enter a number ");
        int no=sc.nextInt();
        if(no>=0)
-       	System.out.println("+ve no");
+        System.out.println("+ve no");
        else
-       	System.out.println("-ve no");
+        System.out.println("-ve no");
     }
 }
 
@@ -450,24 +451,24 @@ if(c1)
 import java.util.*;
 class Test
 {
-	 public static void main(String arg[])
-	 {
-	     Scanner sc=new Scanner(System.in);
-	     System.out.println("enter a number ");
-	     int no=sc.nextInt();
-	     if(no!=0)
-	     {
-	         if(no>0)
-	         {
+     public static void main(String arg[])
+     {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("enter a number ");
+         int no=sc.nextInt();
+         if(no!=0)
+         {
+             if(no>0)
+             {
                    System.out.println("+ve number ");
-	         }
-	         else
-	         {
-	               System.out.println("-ve number ");
-	         }
-	     }
+             }
+             else
+             {
+                   System.out.println("-ve number ");
+             }
+         }
 
-	 }
+     }
 }
 
 
@@ -496,28 +497,28 @@ else
 import java.util.*;
 class Test
 {
-	 public static void main(String arg[])
-	 {
-	     Scanner sc=new Scanner(System.in);
-	     System.out.println("enter a number ");
-	     int no=sc.nextInt();
-	     if(no!=0)
-	     {
-	         if(no>0)
-	         {
+     public static void main(String arg[])
+     {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("enter a number ");
+         int no=sc.nextInt();
+         if(no!=0)
+         {
+             if(no>0)
+             {
                    System.out.println("+ve number ");
-	         }
-	         else
-	         {
-	               System.out.println("-ve number ");
-	         }
-	     }
-	     else
-	     {
-	          System.out.println("zero");
-	     }
+             }
+             else
+             {
+                   System.out.println("-ve number ");
+             }
+         }
+         else
+         {
+              System.out.println("zero");
+         }
 
-	 }
+     }
 }
 
 //wap take char from keyboard check char is alp  if alp check upper  or lower, not alp
@@ -525,27 +526,27 @@ class Test
 import java.util.*;
 class Test
 {
-	public static void main(String arg[])
-	 {
-	     Scanner sc=new Scanner(System.in);
-	     System.out.println("enter a char ");
-	     char ch=sc.next().charAt(0);
-	     if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
-	     {
-	         System.out.println("alp");
-	         if(Ch>='A'&&ch<='Z')
-	         {
+    public static void main(String arg[])
+     {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("enter a char ");
+         char ch=sc.next().charAt(0);
+         if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
+         {
+             System.out.println("alp");
+             if(Ch>='A'&&ch<='Z')
+             {
                   System.out.println("uppercase");
-	         }
-	         else
-	         {
-	            System.out.println("lower case");
-	         }
-	     }
-	     else
-	     {
-	        System.out.println("not alp");
-	     }
+             }
+             else
+             {
+                System.out.println("lower case");
+             }
+         }
+         else
+         {
+            System.out.println("not alp");
+         }
       }
 }
 
@@ -572,30 +573,30 @@ else
 import java.util.*;
 class Test
 {
-	 public static void main(String arg[])
-	 {
-	     Scanner sc=new Scanner(System.in);
-	     System.out.println("enter a number ");
-	     int no=sc.nextInt();
-	     if(no==0)
-	     {
-	           System.out.println("zero");
-	         
-	     }
-	     else
-	     {  
-	         if(no>0)
-	         {
+     public static void main(String arg[])
+     {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("enter a number ");
+         int no=sc.nextInt();
+         if(no==0)
+         {
+               System.out.println("zero");
+             
+         }
+         else
+         {  
+             if(no>0)
+             {
                    System.out.println("+ve number ");
-	         }
-	         else
-	         {
-	               System.out.println("-ve number ");
-	         }
-	         
-	     }
+             }
+             else
+             {
+                   System.out.println("-ve number ");
+             }
+             
+         }
 
-	 }
+     }
 }
 
 
@@ -633,37 +634,37 @@ else
 import java.util.*;
 class Test
 {
-	 public static void main(String arg[])
-	 {
-	     Scanner sc=new Scanner(System.in);
-	     System.out.println("enter three numbers");
-	     int no1=sc.nextInt();
-	     int no2=sc.nextInt();
-	     int no3=sc.nextInt();
-	     if(no1>no2)
-	     {
-	         if(no1>no3)
-	         {
+     public static void main(String arg[])
+     {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("enter three numbers");
+         int no1=sc.nextInt();
+         int no2=sc.nextInt();
+         int no3=sc.nextInt();
+         if(no1>no2)
+         {
+             if(no1>no3)
+             {
                    System.out.println("first number is biger "+no1);
-	         }
-	         else
-	         {
-	            System.out.println("third number is biger "+no3);   
-	         }
-	     }
-	     else
-	     {
-	          if(no2>no3)
-	         {
+             }
+             else
+             {
+                System.out.println("third number is biger "+no3);   
+             }
+         }
+         else
+         {
+              if(no2>no3)
+             {
                    System.out.println("second number is biger "+no2);
-	         }
-	         else
-	         {
-	            System.out.println("third number is biger "+no3);   
-	         } 
-	     }
+             }
+             else
+             {
+                System.out.println("third number is biger "+no3);   
+             } 
+         }
 
-	 }
+     }
 }
 
 
